@@ -1,0 +1,50 @@
+body{
+    background-color: cyan;
+}
+
+.container {
+    width: 50%;
+    border-radius: 5px;
+    background-color: rgb(220, 236, 236);
+    padding: 20px;
+  }
+
+  
+input[type=text] {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+  }
+  
+  input[type=password] {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+  }
+
+  input[type=email] {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+  }
+
+  input[type=submit] {
+    background-color: rgb(0, 110, 255);
+    color: white;
+    margin-top: 20px;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    
+  }
+  
+  input[type=submit]:hover {
+    background-color: red;
+  }
